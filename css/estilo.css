@@ -1,0 +1,35 @@
+.letra-grande {
+  font-size: 15px; }
+
+.letra-mediana {
+  font-size: 10px; }
+
+.letra-chica {
+  font-size: 5px; }
+
+.img-logo {
+  width: 10%;
+  height: auto; }
+
+.text-navbar {
+  text-size: 4rem; }
+
+.nav-link {
+  color: black; }
+
+.white {
+  color: white; }
+
+* {
+  margin: 0px;
+  padding: 0px; }
+
+.display-flex, .display-flex-column {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-items: space-evenly; }
+
+.display-flex-column {
+  flex-direction: column; }
