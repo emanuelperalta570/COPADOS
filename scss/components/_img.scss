@@ -4,11 +4,11 @@
 }
 
 .img-logo{
-    @include logo(100px,auto);
+    @include logo((200px/2),auto);
 }
 
 .img-mediopago{
-     @include logo(50px,auto);
+     @include logo((100px/2),auto);
 }
 
 .imgdestacados--size{

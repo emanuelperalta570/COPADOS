@@ -28,9 +28,6 @@
   width: 100%;
   height: auto; }
 
-.text-navbar {
-  text-size: 4rem; }
-
 .nav-link {
   color: black; }
 
@@ -57,7 +54,7 @@ body header {
   align-items: center; }
 
 .bg-color {
-  background-color: #5e5d5d;
+  background-color: #acabab;
   color: white; }
 
 * {
