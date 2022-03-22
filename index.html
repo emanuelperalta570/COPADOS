@@ -8,7 +8,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Lato:ital@1&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/normalize.css">
@@ -16,23 +16,27 @@
 </head>
 <body class="container-fluid">
 	<!-- Inicio de Encabezado -->
+	<div class="row"> 
+		<h3 class="col-12 text1">
+			BEBER CON MODERACION. PROHIBIDA SU VENTA A MENORES DE 18 AÑOS
+		</h3>
+	</div>
 	<header class="row">
 		<!-- LOGO -->
-		 <div class="col 4">
+		 <div class="col-3 display-flex">
 			<a href="index.html">
 			<img src="assets/img/logo/logo_copados.png" alt="logo" class="img-logo">
 			</a>
 		</div>
 		<!-- Cierre logo -->
 		<!-- Inicio Nav -->
-		<nav class="col 4 flex-menu" data-aos="fade-down">
+		<nav class="col-6 flex-menu navbar-index padding-header display-flex" data-aos="fade-down">
 			<!-- Lista con viñetas -->
 			<nav class="navbar navbar-expand-lg navbar-light background-color-black">
-				<a class="navbar-brand" href="#"></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				  <span class="navbar-toggler-icon"></span>
 				</button>
-				<div class="collapse navbar-collapse" id="navbarNav">
+				<div class="collapse navbar-collapse" id="navbarNav" >
 				  <ul class="navbar-nav">
 					<li class="nav-item active">
 						<a class="nav-link color-red" href="#">HOME <span class="sr-only">(current)</span></a>
@@ -44,7 +48,7 @@
 						<a class="nav-link color-red" href="views/destacados.html">DESTACADOS<span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item active">
-						<a class="nav-link color-red" href="views/nuestras_tiendas.html">NUESTRAS TIENDAS<span class="sr-only">(current)</span></a>
+						<a class="nav-link color-red" href="views/nuestras_tiendas.html">TIENDAS<span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item active">
 						<a class="nav-link color-red" href="views/contacto.html">CONTACTO<span class="sr-only">(current)</span></a>
@@ -53,22 +57,22 @@
 				</div>
 			  </nav>
 		</nav>
-		<nav class="col-4">
-			<ul class="img-logo">
-				<li ><a href="https://www.instagram.com/copa2_ok/">
-					<img src="https://icongr.am/fontawesome/instagram.svg?size=75&color=bc1a1a" alt="logoinsta">
+		<nav class="col-3 display-flex padding-rrss">
+			<ul class="img-logo-header display-flex padding-rrss">
+				<li><a href="https://www.instagram.com/copa2_ok/">
+					<img src="https://icongr.am/fontawesome/instagram.svg?size=75&color=bc1a1a" alt="logoinsta" class="img-logo-header">
 				</a></li>
 				<li><a href="https://www.facebook.com/Copa2RamosMejia">
-					<img src="https://icongr.am/fontawesome/facebook.svg?size=75&color=bc1a1a" alt="logoface">
+					<img src="https://icongr.am/fontawesome/facebook.svg?size=75&color=bc1a1a" alt="logoface" class="img-logo-header">
 				</a></li>
 				<li><a href="mailto:copados@gmail.com">
-					<img src="https://icongr.am/fontawesome/envelope-o.svg?size=75&color=bc1a1a" alt="logomail">
+					<img src="https://icongr.am/fontawesome/envelope-o.svg?size=75&color=bc1a1a" alt="logomail" class="img-logo-header">
 				</a></li>
 				<li><a href="https://api.whatsapp.com/send?phone=+5491161348258">
-					<img src="https://icongr.am/fontawesome/whatsapp.svg?size=75&color=bc1a1a" alt="logowhats">
+					<img src="https://icongr.am/fontawesome/whatsapp.svg?size=75&color=bc1a1a" alt="logowhats" class="img-logo-header">
 				</a></li>
 				<li><a href="https://msng.link/o/?Copa2RamosMejia=fm">
-					<img src="https://icongr.am/jam/messenger.svg?size=75&color=bc1a1a" alt="logomess">
+					<img src="https://icongr.am/jam/messenger.svg?size=75&color=bc1a1a" alt="logomess" class="img-logo-header">
 				</a></li>
 			</ul>		
 		</nav>
@@ -77,40 +81,66 @@
 	<!-- Cierre encabezado -->
 	<!-- Inicio contenido -->
 	<main class="row">
-		<div class="col-6 col col-12 textBienv animate__animated  animate__backInLeft">
+		<div class="col-lg-4">
+
+		</div>
+		<div class="col-lg-4 textBienv animate__animated  animate__backInLeft">
 			<h1>¡BIENVENIDOS A NUESTRA TIENDA DE BEBIDAS!</h1>
 			<p>Nuestro horario de atencion es de Lunes a viernes de 17 a 22 y sabados de 10 a 22hs!
 			</p>	
 			<p>¡Te esperamos !</p>
 		</div>
-	
-		<div class="col-12 col-lg-12">
-			<video autoplay muted loop class="myVideo">
+		<div class="col-lg-4">
+		</div>
+		<div class="col-lg-4">
+		</div>
+		<div class="col-12 col-lg-4 textBienv video">
+			<video autoplay muted loop class="video">
 				<source src="assets/video/video-copados.mp4" type="video/mp4">
 			</video>
+		</div>
+		<div class="col-lg-4">
 		</div>
 	</main>
 	<!-- cierre contenido -->
 	<!-- inicio footer -->
-	<footer class="row display-flex">
+	<footer class="row display-flex bg-color">
 		<!-- REDES SOCIALES -->
-		<ul class="col-12 flex-footer display-flex">
+		<ul class="col-4 display-flex-column ">
+			
+			<h5>REDES</h5>
+			<div class="display-flex">
 			<li ><a href="https://www.instagram.com/copa2_ok/">
-				<img src="https://icongr.am/fontawesome/instagram.svg?size=75&color=bc1a1a" alt="logoinsta">
+				<img src="https://icongr.am/fontawesome/instagram.svg?size=75&color=currentColor" alt="logoinsta" class="footer img-logo-header">
 			</a></li>
 			<li><a href="https://www.facebook.com/Copa2RamosMejia">
-				<img src="https://icongr.am/fontawesome/facebook.svg?size=75&color=bc1a1a" alt="logoface">
+				<img src="https://icongr.am/fontawesome/facebook.svg?size=75&color=currentColor" alt="logoface" class="footer img-logo-header">
 			</a></li>
 			<li><a href="mailto:copados@gmail.com">
-				<img src="https://icongr.am/fontawesome/envelope-o.svg?size=75&color=bc1a1a" alt="logomail">
+				<img src="https://icongr.am/fontawesome/envelope-o.svg?size=75&color=currentColor" alt="logomail" class="footer img-logo-header">
 			</a></li>
 			<li><a href="https://api.whatsapp.com/send?phone=+5491161348258">
-				<img src="https://icongr.am/fontawesome/whatsapp.svg?size=75&color=bc1a1a" alt="logowhats">
+				<img src="https://icongr.am/fontawesome/whatsapp.svg?size=75&color=currentColor" alt="logowhats" class="footer img-logo-header">
 			</a></li>
 			<li><a href="https://msng.link/o/?Copa2RamosMejia=fm">
-				<img src="https://icongr.am/jam/messenger.svg?size=75&color=bc1a1a" alt="logomess">
-			</a></li>
+				<img src="https://icongr.am/jam/messenger.svg?size=75&color=currentColor" alt="logomess" class="footer img-logo-header">
+			</a></li>	
+			</div>
 		</ul>		
+		<div class="col-4 display-flex-column"> 
+			<h5>NAVEGACION</h5>
+			<H6></H6>
+		</div>
+		<div class="col-4 display-flex-column img-mediopago"> 
+			<h5>MEDIOS DE PAGO</h5>
+			<div><img src="assets/img/mediosPago/amex@2x.png" alt="amex" class="img-mediopago">
+				<img src="assets/img/mediosPago/mastercard@2x.png" alt="mastercard" class="img-mediopago">
+				<img src="assets/img/mediosPago/mastercarddebit@2x.png" alt="mastercarddebit" class="img-mediopago">
+				<img src="assets/img/mediosPago/mercadopago@2x.png" alt="mercadopago" class="img-mediopago">
+				<img src="assets/img/mediosPago/visa@2x.png" alt="visa" class="img-mediopago">
+				<img src="assets/img/mediosPago/visadebit@2x.png" alt="visadebito img-mediopago" class="img-mediopago">
+			</div>
+		</div>
 	</footer>
 	<script src="js/wow.min.js"></script>
 	<script> new WOW().init();</script>

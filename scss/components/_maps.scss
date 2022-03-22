@@ -15,3 +15,14 @@ $estilo-letra:(
     tfuente:25px
 );
 
+$padding-top:(
+    logo:0px,
+    header:8px,
+    rrss:10px
+);
+
+@each $seccion, $pixeles in $padding-top{
+    .padding-#{$seccion}{
+        padding-top:$pixeles;
+    }
+}

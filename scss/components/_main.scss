@@ -8,10 +8,28 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    justify-items: space-evenly ;
+    justify-items: space-evenly!important;
 }
 
 .display-flex-column{
     @extend .display-flex;
     flex-direction: column;
+}
+
+ul{
+    text-decoration: none;
+    list-style-type:none;
+}
+
+.img-logo-header{
+    width:20px;
+    height:auto;
+}
+.video{
+    width:100%;
+    height:auto;
+}
+
+.navbar-index{
+    z-index:3;
 }

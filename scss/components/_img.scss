@@ -4,5 +4,13 @@
 }
 
 .img-logo{
-    @include logo(10%,auto);
+    @include logo(100px,auto);
+}
+
+.img-mediopago{
+     @include logo(50px,auto);
+}
+
+.imgdestacados--size{
+    @include logo(100%,auto);
 }
