@@ -7,6 +7,9 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Lato:ital@1&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,130 +22,172 @@
 <body class="container-fluid">
 	<!-- Inicio de Encabezado -->
 	<div class="row"> 
-		<h3 class="col-12 text1">
-			BEBER CON MODERACION. PROHIBIDA SU VENTA A MENORES DE 18 AÑOS
-		</h3>
+		<p class="col-12 text1 mb-0 beberconmoderacion">
+			BEBER CON MODERACION. PROHIBIDA SU VENTA A MENORES DE 18 AÑOS.
+		</p>
 	</div>
-	<header class="row">
+	<header class="row bg-black sticky-top navbar-index-2 margin-main sticky">
 		<!-- LOGO -->
-		 <div class="col-3 display-flex">
+		<div class="col-1"></div>
+		<div class="col-3 col-md-2 display-flex">
 			<a href="index.html">
 			<img src="assets/img/logo/logo_copados.png" alt="logo" class="img-logo">
 			</a>
 		</div>
 		<!-- Cierre logo -->
 		<!-- Inicio Nav -->
-		<nav class="col-6 flex-menu navbar-index padding-header display-flex" data-aos="fade-down">
+		<nav class="col-4 col-md-6 flex-menu navbar-index padding-header display-flex text-white">
 			<!-- Lista con viñetas -->
-			<nav class="navbar navbar-expand-lg navbar-light background-color-black">
+			<nav class="navbar navbar-expand-lg navbar-dark background-color-black">
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				  <span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarNav" >
-				  <ul class="navbar-nav">
-					<li class="nav-item active">
-						<a class="nav-link color-red" href="#">HOME <span class="sr-only">(current)</span></a>
+				  <ul class="navbar-nav underline">
+						<li class="nav-item bg-black border-radius-header active hover-header ">
+						<a class="nav-link text-white " href="#">HOME <span class="sr-only">(current)</span></a>
 					  </li>
-					<li class="nav-item active">
-					  <a class="nav-link color-red" href="views/socios.html">SOCIOS <span class="sr-only">(current)</span></a>
+					<li class="nav-item active bg-black  border-radius-header hover-header">
+						<a class="nav-link text-white " href="views/socios.html">SOCIOS <span class="sr-only">(current)</span></a>
 					</li>
-					<li class="nav-item active ">
-						<a class="nav-link color-red" href="views/destacados.html">DESTACADOS<span class="sr-only">(current)</span></a>
+					<li class="nav-item active bg-black  border-radius-header hover-header">
+						<a class="nav-link text-white" href="#destacados">DESTACADOS<span class="sr-only">(current)</span></a>
 					</li>
-					<li class="nav-item active">
-						<a class="nav-link color-red" href="views/nuestras_tiendas.html">TIENDAS<span class="sr-only">(current)</span></a>
+					<li class="nav-item active bg-black  border-radius-header hover-header">
+						<a class="nav-link text-white" href="views/nuestras_tiendas.html">TIENDAS<span class="sr-only">(current)</span></a>
 					</li>
-					<li class="nav-item active">
-						<a class="nav-link color-red" href="views/contacto.html">CONTACTO<span class="sr-only">(current)</span></a>
+					<li class="nav-item active bg-black  border-radius-header hover-header">
+						<a class="nav-link text-white" href="views/productos.html">PRODUCTOS<span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item active bg-black  border-radius-header hover-header">
+						<a class="nav-link text-white" href="views/contacto.html">CONTACTO<span class="sr-only">(current)</span></a>
 					</li>
 				  </ul>
 				</div>
 			  </nav>
 		</nav>
-		<nav class="col-3 display-flex padding-rrss">
-			<ul class="img-logo-header display-flex padding-rrss">
-				<li><a href="https://www.instagram.com/copa2_ok/">
+		<nav class="col-3 col-md-2 display-flex padding-rrss gap">
+			<ul class="img-logo-header display-flex padding-rrss gap">
+				<li class="hover"><a href="https://www.instagram.com/copa2_ok/">
 					<img src="https://icongr.am/fontawesome/instagram.svg?size=75&color=bc1a1a" alt="logoinsta" class="img-logo-header">
 				</a></li>
-				<li><a href="https://www.facebook.com/Copa2RamosMejia">
-					<img src="https://icongr.am/fontawesome/facebook.svg?size=75&color=bc1a1a" alt="logoface" class="img-logo-header">
-				</a></li>
-				<li><a href="mailto:copados@gmail.com">
+				<li class="hover"><a href="mailto:copados@gmail.com">
 					<img src="https://icongr.am/fontawesome/envelope-o.svg?size=75&color=bc1a1a" alt="logomail" class="img-logo-header">
 				</a></li>
-				<li><a href="https://api.whatsapp.com/send?phone=+5491161348258">
+				<li class="hover"><a href="https://api.whatsapp.com/send?phone=+5491161348258">
 					<img src="https://icongr.am/fontawesome/whatsapp.svg?size=75&color=bc1a1a" alt="logowhats" class="img-logo-header">
-				</a></li>
-				<li><a href="https://msng.link/o/?Copa2RamosMejia=fm">
-					<img src="https://icongr.am/jam/messenger.svg?size=75&color=bc1a1a" alt="logomess" class="img-logo-header">
 				</a></li>
 			</ul>		
 		</nav>
+		<div class="col-1 bg-black"></div>
 		<!-- Cierre nav -->
 	</header>
 	<!-- Cierre encabezado -->
 	<!-- Inicio contenido -->
-	<main class="row">
-		<div class="col-lg-4">
 
+<main class="row margin-main position-150px navbar-index">
+	<video autoplay muted loop class="video" id="background-video">
+		<source src="assets/video/video-copados.mp4" type="video/mp4">
+	</video>
+	<div class="col-1 bg-black"></div> 
+	<div class="col-10 textBienv text-white bg-black p-3">
+		<h1 class="bolder">¡BIENVENIDOS A NUESTRA TIENDA DE BEBIDAS!</h1>
+		<p>Nuestro horario de atencion es de Lunes a viernes de 17 a 22 y sabados de 10 a 22hs.</p>
+		<p>¡Te esperamos !</p>
+	</div>
+	<div class="col-1 bg-black"></div>
+	<div class="col-1 bg-color"></div>
+	<div class="col-10   bg-color p-3" id="destacados" >PRODUCTOS DESTACADOS...</div>
+	<div class="col-1 bg-color"></div>
+</main>
+<div class="container px-3 py-3">
+	<div class="row">
+		<div class="col mx-1 img-destacados img__wrap display-flex" data-aos="fade-left">
+			<img src="assets/img/destacados_main/blue_label.jpg" class="img-destacados img__img"  alt="bluelabel">
+			<p class="img__description">Johnnie Walker Blue label</p>
 		</div>
-		<div class="col-lg-4 textBienv animate__animated  animate__backInLeft">
-			<h1>¡BIENVENIDOS A NUESTRA TIENDA DE BEBIDAS!</h1>
-			<p>Nuestro horario de atencion es de Lunes a viernes de 17 a 22 y sabados de 10 a 22hs!
-			</p>	
-			<p>¡Te esperamos !</p>
+		<div class="col mx-1 img-destacados img__wrap display-flex" data-aos="zoom-in-up">
+			<img src="assets/img/destacados_main/elit_vodka.jpg" class="img-destacados img__img"  alt="vodka">
+			<p class="img__description">Elit vodka</p>
 		</div>
-		<div class="col-lg-4">
+		<div class="col mx-1 img-destacados img__wrap display-flex">
+			<img src="assets/img/destacados_main/gunpowdergin.jpg"  class="img-destacados" data-aos="fade-right" alt="gunpowdergin">
+			<p class="img__description">Gunpoweder Gin</p>
 		</div>
-		<div class="col-lg-4">
+	</div>
+	<div class="row">
+		<div class="col mx-1 img-destacados img__wrap display-flex">
+			<img src="assets/img/destacados_main/royal_salute.jpg" class="img-destacados img__img" data-aos="fade-left" alt="bluelabel">
+			<p class="img__description">Chivas Royal Salute</p>
 		</div>
-		<div class="col-12 col-lg-4 textBienv video">
-			<video autoplay muted loop class="video">
-				<source src="assets/video/video-copados.mp4" type="video/mp4">
-			</video>
+		<div class="col mx-1 img-destacados  img__wrap display-flex">
+			<img src="assets/img/destacados_main/remymartin.jpg" class="img-destacados img__img" data-aos="zoom-in-down" alt="vodka">
+			<p class="img__description">Remy martin</p>
 		</div>
-		<div class="col-lg-4">
+		<div class="col mx-1 img-destacados img__wrap display-flex">
+			<img src="assets/img/destacados_main/nuvo.jpg"  class="img-destacados img__img" data-aos="fade-right" alt="gunpowdergin">
+			<p class="img__description">Nuvo Liquor</p>
 		</div>
-	</main>
+	</div>
+</div>
 	<!-- cierre contenido -->
 	<!-- inicio footer -->
-	<footer class="row display-flex bg-color">
+<footer class="row display-flex-footer bg-secondary padding-footer">
 		<!-- REDES SOCIALES -->
-		<ul class="col-4 display-flex-column ">
-			
-			<h5>REDES</h5>
-			<div class="display-flex">
-			<li ><a href="https://www.instagram.com/copa2_ok/">
-				<img src="https://icongr.am/fontawesome/instagram.svg?size=75&color=currentColor" alt="logoinsta" class="footer img-logo-header">
-			</a></li>
-			<li><a href="https://www.facebook.com/Copa2RamosMejia">
-				<img src="https://icongr.am/fontawesome/facebook.svg?size=75&color=currentColor" alt="logoface" class="footer img-logo-header">
-			</a></li>
-			<li><a href="mailto:copados@gmail.com">
-				<img src="https://icongr.am/fontawesome/envelope-o.svg?size=75&color=currentColor" alt="logomail" class="footer img-logo-header">
-			</a></li>
-			<li><a href="https://api.whatsapp.com/send?phone=+5491161348258">
-				<img src="https://icongr.am/fontawesome/whatsapp.svg?size=75&color=currentColor" alt="logowhats" class="footer img-logo-header">
-			</a></li>
-			<li><a href="https://msng.link/o/?Copa2RamosMejia=fm">
-				<img src="https://icongr.am/jam/messenger.svg?size=75&color=currentColor" alt="logomess" class="footer img-logo-header">
-			</a></li>	
+		<div class="col-1 col-md-2 bg-secondary"></div>
+		<ul class="col-10 col-md-2 display-flex-column">
+			<p class="padding-title">REDES</p>
+			<div class="display-flex-column-rrss">
+				<div class="display-flex-rrss">
+					<li class="hover-footer" ><a href="https://www.instagram.com/copa2_ok/">
+					<img src="https://icongr.am/fontawesome/instagram.svg?size=75&color=currentColor" alt="logoinsta" class="footer img-logo-header">
+					</a>
+					</li>
+					<a class="footer-link" href="https://www.instagram.com/copa2_ok/">@copa2_ok</a>
+				</div>
+				<div class="display-flex-rrss">	
+					<li class="hover-footer"><a href="mailto:copados@gmail.com">
+						<img src="https://icongr.am/fontawesome/envelope-o.svg?size=75&color=currentColor" alt="logomail" class="footer img-logo-header">
+					</a></li>
+					<a href="mailto:copados@gmail.com" class="footer-link">copados@gmail.com</a>
+				</div>
+				<div class="display-flex-rrss">
+					<li class="hover-footer"><a href="https://api.whatsapp.com/send?phone=+5491161348258">
+						<img src="https://icongr.am/fontawesome/whatsapp.svg?size=75&color=currentColor" alt="logowhats" class="footer img-logo-header">
+					</a></li>
+					<a href="https://api.whatsapp.com/send?phone=+5491161348258" class="footer-link">1161348258</a>
+				</div>
 			</div>
 		</ul>		
-		<div class="col-4 display-flex-column"> 
-			<h5>NAVEGACION</h5>
-			<H6></H6>
-		</div>
-		<div class="col-4 display-flex-column img-mediopago"> 
-			<h5>MEDIOS DE PAGO</h5>
-			<div><img src="assets/img/mediosPago/amex@2x.png" alt="amex" class="img-mediopago">
+		<ul class="col-10 col-md-2 display-flex-column">
+			<div class="col-10 col-md-2 display-flex-column padding-title"> 
+				<p class="padding-title">NAVEGACION</p>
+				<a class="footer-link"href="views/socios.html">Socios</a>
+				<a class="footer-link"href="views/nuestras_tiendas.html">Tiendas</a>
+				<a class="footer-link" href="views/productos.html">Productos</a>
+				<a class="footer-link" href="views/contacto.html">Contactos</a>
+			</div>
+		</ul>
+		<ul class="col-10 col-md-2 display-flex-column img-mediopago"> 
+			<p class="padding-title">MEDIOS DE PAGO</p>
+			<div class="display-flex" >
+				<img src="assets/img/mediosPago/amex@2x.png" alt="amex" class="img-mediopago">
 				<img src="assets/img/mediosPago/mastercard@2x.png" alt="mastercard" class="img-mediopago">
 				<img src="assets/img/mediosPago/mastercarddebit@2x.png" alt="mastercarddebit" class="img-mediopago">
+			</div>
+			<div class="display-flex">
 				<img src="assets/img/mediosPago/mercadopago@2x.png" alt="mercadopago" class="img-mediopago">
 				<img src="assets/img/mediosPago/visa@2x.png" alt="visa" class="img-mediopago">
 				<img src="assets/img/mediosPago/visadebit@2x.png" alt="visadebito img-mediopago" class="img-mediopago">
 			</div>
+		</ul>
+		<div class="col-10 col-md-2 bg-secondary display-flex-column">
+			<a class="padding-title footer-link display-flex-column" href="views/trabajaconnosotros.html">
+				<p class="padding-title">FRANQUICIAS/CARRERAS</p>
+				<p>¡Se parte de nuestro equipo trabajando con nosotros!</p>
+			</a>
 		</div>
+		<div class="col-1 col-md-2 bg-secondary"></div>
 	</footer>
 	<script src="js/wow.min.js"></script>
 	<script> new WOW().init();</script>

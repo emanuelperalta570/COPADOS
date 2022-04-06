@@ -1,8 +1,16 @@
 body{
-    header{
+    header {
         display: flex;
         flex-direction: row;
         align-items: center;
+        position: sticky;
+        top:0;
+        z-index:0;
+        
     }
+}
+
+.bolder{
+    font-weight: bolder;
 }
 
