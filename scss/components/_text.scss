@@ -95,3 +95,8 @@
 .font-beneficio{
     font-size: 30px;
 }
+
+.display-flex-logo{
+    @extend .display-flex;
+    align-items: flex-start;
+}

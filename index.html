@@ -29,7 +29,7 @@
 	<header class="row bg-black sticky-top navbar-index-2 margin-main sticky">
 		<!-- LOGO -->
 		<div class="col-1"></div>
-		<div class="col-3 col-md-2 display-flex">
+		<div class="col-3 col-md-2 display-flex-logo">
 			<a href="index.html">
 			<img src="assets/img/logo/logo_copados.png" alt="logo" class="img-logo">
 			</a>
@@ -102,7 +102,7 @@
 </main>
 <div class="container px-3 py-3">
 	<div class="row">
-		<div class="col mx-1 img-destacados img__wrap display-flex" data-aos="fade-left">
+		<div class="col mx-1 img-destacados img__wrap display-flex" data-aos="zoom-in-down">
 			<img src="assets/img/destacados_main/blue_label.jpg" class="img-destacados img__img"  alt="bluelabel">
 			<p class="img__description">Johnnie Walker Blue label</p>
 		</div>
@@ -111,13 +111,13 @@
 			<p class="img__description">Elit vodka</p>
 		</div>
 		<div class="col mx-1 img-destacados img__wrap display-flex">
-			<img src="assets/img/destacados_main/gunpowdergin.jpg"  class="img-destacados" data-aos="fade-right" alt="gunpowdergin">
+			<img src="assets/img/destacados_main/gunpowdergin.jpg"  class="img-destacados" data-aos="zoom-in-down" alt="gunpowdergin">
 			<p class="img__description">Gunpoweder Gin</p>
 		</div>
 	</div>
 	<div class="row">
 		<div class="col mx-1 img-destacados img__wrap display-flex">
-			<img src="assets/img/destacados_main/royal_salute.jpg" class="img-destacados img__img" data-aos="fade-left" alt="bluelabel">
+			<img src="assets/img/destacados_main/royal_salute.jpg" class="img-destacados img__img" data-aos="zoom-in-up" alt="bluelabel">
 			<p class="img__description">Chivas Royal Salute</p>
 		</div>
 		<div class="col mx-1 img-destacados  img__wrap display-flex">
@@ -125,7 +125,7 @@
 			<p class="img__description">Remy martin</p>
 		</div>
 		<div class="col mx-1 img-destacados img__wrap display-flex">
-			<img src="assets/img/destacados_main/nuvo.jpg"  class="img-destacados img__img" data-aos="fade-right" alt="gunpowdergin">
+			<img src="assets/img/destacados_main/nuvo.jpg"  class="img-destacados img__img" data-aos="zoom-in-up" alt="gunpowdergin">
 			<p class="img__description">Nuvo Liquor</p>
 		</div>
 	</div>
@@ -134,32 +134,31 @@
 	<!-- inicio footer -->
 <footer class="row display-flex-footer bg-secondary padding-footer">
 		<!-- REDES SOCIALES -->
-		<div class="col-1 col-md-2 bg-secondary"></div>
-		<ul class="col-10 col-md-2 display-flex-column">
+		<div class="col-1 col-md-1 bg-secondary"></div>
+		<ul class="col-10 col-md-1 display-flex-column">
 			<p class="padding-title">REDES</p>
-			<div class="display-flex-column-rrss">
+			<div class="display-flex">
 				<div class="display-flex-rrss">
 					<li class="hover-footer" ><a href="https://www.instagram.com/copa2_ok/">
 					<img src="https://icongr.am/fontawesome/instagram.svg?size=75&color=currentColor" alt="logoinsta" class="footer img-logo-header">
 					</a>
 					</li>
-					<a class="footer-link" href="https://www.instagram.com/copa2_ok/">@copa2_ok</a>
 				</div>
 				<div class="display-flex-rrss">	
 					<li class="hover-footer"><a href="mailto:copados@gmail.com">
 						<img src="https://icongr.am/fontawesome/envelope-o.svg?size=75&color=currentColor" alt="logomail" class="footer img-logo-header">
 					</a></li>
-					<a href="mailto:copados@gmail.com" class="footer-link">copados@gmail.com</a>
 				</div>
 				<div class="display-flex-rrss">
 					<li class="hover-footer"><a href="https://api.whatsapp.com/send?phone=+5491161348258">
 						<img src="https://icongr.am/fontawesome/whatsapp.svg?size=75&color=currentColor" alt="logowhats" class="footer img-logo-header">
 					</a></li>
-					<a href="https://api.whatsapp.com/send?phone=+5491161348258" class="footer-link">1161348258</a>
 				</div>
 			</div>
 		</ul>		
-		<ul class="col-10 col-md-2 display-flex-column">
+		<div class="col-1 col-md-1 bg-secondary"></div>
+		<div class="col-1 col-md-1 bg-secondary"></div>
+		<ul class="col-10 col-md-1 display-flex-column">
 			<div class="col-10 col-md-2 display-flex-column padding-title"> 
 				<p class="padding-title">NAVEGACION</p>
 				<a class="footer-link"href="views/socios.html">Socios</a>
@@ -168,7 +167,9 @@
 				<a class="footer-link" href="views/contacto.html">Contactos</a>
 			</div>
 		</ul>
-		<ul class="col-10 col-md-2 display-flex-column img-mediopago"> 
+		<div class="col-1 col-md-1 bg-secondary"></div>
+		<div class="col-1 col-md-1 bg-secondary"></div>
+		<ul class="col-10 col-md-1 display-flex-column img-mediopago"> 
 			<p class="padding-title">MEDIOS DE PAGO</p>
 			<div class="display-flex" >
 				<img src="assets/img/mediosPago/amex@2x.png" alt="amex" class="img-mediopago">
@@ -181,13 +182,15 @@
 				<img src="assets/img/mediosPago/visadebit@2x.png" alt="visadebito img-mediopago" class="img-mediopago">
 			</div>
 		</ul>
-		<div class="col-10 col-md-2 bg-secondary display-flex-column">
+		<div class="col-1 col-md-1 bg-secondary"></div>
+		<div class="col-1 col-md-1 bg-secondary"></div>
+		<div class="col-10 col-md-1 bg-secondary display-flex-column">
 			<a class="padding-title footer-link display-flex-column" href="views/trabajaconnosotros.html">
-				<p class="padding-title">FRANQUICIAS/CARRERAS</p>
-				<p>¡Se parte de nuestro equipo trabajando con nosotros!</p>
+				<p class="padding-title">FRANQUICIAS</p>
+				<p>¡Se parte de nuestro equipo de trabajo!</p>
 			</a>
 		</div>
-		<div class="col-1 col-md-2 bg-secondary"></div>
+		<div class="col-1 col-md-1 bg-secondary"></div>
 	</footer>
 	<script src="js/wow.min.js"></script>
 	<script> new WOW().init();</script>

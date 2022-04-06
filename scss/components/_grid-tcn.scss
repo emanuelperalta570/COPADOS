@@ -124,3 +124,46 @@
 .footer-padding{
     padding:50px;
 }
+
+@media screen and (min-width:375px) and (max-width: 600px) {
+    .grid-main{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-auto-rows: repeat(8,1fr);
+        grid-template-areas:
+          "titulo-ventas"
+          "img-ventas"
+          "titulo-compras"
+          "img-compras"
+          "titulo-admin"
+          "img-admin"
+          "titulo-frnqcia"  
+          "img-frnqcia"  ;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .grid-main{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-auto-rows: repeat(8,1fr);
+        grid-template-areas:
+          "titulo-ventas"
+          "img-ventas"
+          "titulo-compras"
+          "img-compras"
+          "titulo-admin"
+          "img-admin"
+          "titulo-frnqcia"  
+          "img-frnqcia" ;
+    }
+    #hide-mq1{
+        display: block;
+    }
+    #hide-mq2{
+        display: none;
+    }
+    #hide-mq3{
+        display: none;
+    }
+}

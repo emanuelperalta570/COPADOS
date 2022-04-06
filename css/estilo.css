@@ -180,6 +180,9 @@
 .font-beneficio {
   font-size: 30px; }
 
+.display-flex-logo {
+  align-items: flex-start; }
+
 body header {
   display: flex;
   flex-direction: row;
@@ -213,7 +216,7 @@ body header {
   font-size: 10px;
   font-weight: bold; }
 
-.display-flex, .display-flex-column, .display-flex-rrss, .display-flex-logo, .display-flex-footer, .display-flex-tcn, .display-flex-main, .display-flex-titulo, .display-flex-idioma {
+.display-flex, .display-flex-logo, .display-flex-column, .display-flex-rrss, .display-flex-footer, .display-flex-tcn, .display-flex-main, .display-flex-titulo, .display-flex-idioma {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -375,6 +378,26 @@ ul {
 
 .footer-padding {
   padding: 50px; }
+
+@media screen and (min-width: 375px) and (max-width: 600px) {
+  .grid-main {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: repeat(8, 1fr);
+    grid-template-areas: "titulo-ventas" "img-ventas" "titulo-compras" "img-compras" "titulo-admin" "img-admin" "titulo-frnqcia"   "img-frnqcia"; } }
+
+@media screen and (max-width: 374px) {
+  .grid-main {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: repeat(8, 1fr);
+    grid-template-areas: "titulo-ventas" "img-ventas" "titulo-compras" "img-compras" "titulo-admin" "img-admin" "titulo-frnqcia"   "img-frnqcia"; }
+  #hide-mq1 {
+    display: block; }
+  #hide-mq2 {
+    display: none; }
+  #hide-mq3 {
+    display: none; } }
 
 .dropbtn {
   background-color: #e20d0d;
