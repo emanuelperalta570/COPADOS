@@ -157,13 +157,9 @@
           "titulo-frnqcia"  
           "img-frnqcia" ;
     }
-    #hide-mq1{
-        display: block;
-    }
-    #hide-mq2{
-        display: none;
-    }
-    #hide-mq3{
-        display: none;
+
+    .bg-tcn{
+        background-image: none;
+        background-color: black;
     }
 }
