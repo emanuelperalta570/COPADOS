@@ -183,6 +183,10 @@
 .display-flex-logo {
   align-items: flex-start; }
 
+.padding-top-bottom {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
 body header {
   display: flex;
   flex-direction: row;
@@ -199,9 +203,18 @@ body header {
   color: black;
   font-size: xx-large; }
 
-.padding-footer {
+.padding-footer, .padding-footer-socios {
   padding-top: 40px;
+  padding-left: 0px;
+  padding-right: 0px;
   margin-top: 30px; }
+
+.padding-footer-socios {
+  margin-right: 0px; }
+
+.padding-socios {
+  margin-left: 0px;
+  margin-right: 0px; }
 
 .padding-title {
   padding-bottom: 10px; }
@@ -374,27 +387,54 @@ ul {
 
 .display-flex-footer {
   justify-content: space-around;
-  background-color: #cecece; }
+  background-color: #cecece;
+  align-items: flex-start; }
 
-.footer-padding {
+.footer-padding-logo {
   padding: 50px; }
 
+.footer-padding-nav {
+  padding: 50px; }
+
+.padding-footer-socios {
+  margin-right: 0px; }
+
+/* .padding-problem-right{
+    margin-right: 0px;
+}
+ */
 @media screen and (min-width: 375px) and (max-width: 600px) {
   .grid-main {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-auto-rows: repeat(8, 1fr);
-    grid-template-areas: "titulo-ventas" "img-ventas" "titulo-compras" "img-compras" "titulo-admin" "img-admin" "titulo-frnqcia"   "img-frnqcia"; } }
+    grid-template-areas: "titulo-ventas" "img-ventas" "titulo-compras" "img-compras" "titulo-admin" "img-admin" "titulo-frnqcia"   "img-frnqcia"; }
+  .font-beneficio {
+    font-size: 20px; }
+  .margin-padding-lang {
+    padding-right: 5px;
+    margin-right: 15px; } }
 
 @media screen and (max-width: 374px) {
   .grid-main {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-auto-rows: repeat(8, 1fr);
+    grid-template-columns: repeat(1, 320px);
+    grid-auto-rows: repeat(8, auto);
     grid-template-areas: "titulo-ventas" "img-ventas" "titulo-compras" "img-compras" "titulo-admin" "img-admin" "titulo-frnqcia"   "img-frnqcia"; }
-  .bg-tcn {
-    background-image: none;
-    background-color: black; } }
+  .display-grid-tcn {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: "logo   hd   hd   idioma" "titulo titulo main main";
+    position: initial; }
+  .font-beneficio {
+    font-size: 10px; }
+  .footer-padding-nav {
+    padding: 10px 10px 10px 32px;
+    margin-right: 50px; }
+  .margin-padding-lang {
+    padding-right: 5px;
+    margin-right: 15px; } }
 
 .dropbtn {
   background-color: #e20d0d;
