@@ -187,6 +187,10 @@
   padding-top: 20px;
   padding-bottom: 20px; }
 
+.h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0; }
+
 body header {
   display: flex;
   flex-direction: row;
@@ -410,7 +414,10 @@ ul {
     font-size: 20px; }
   .margin-padding-lang {
     padding-right: 5px;
-    margin-right: 15px; } }
+    margin-right: 15px; }
+  .h1 {
+    font-size: 1.25rem;
+    margin-bottom: 0; } }
 
 @media screen and (max-width: 374px) {
   .grid-main {
@@ -431,7 +438,10 @@ ul {
     margin-right: 50px; }
   .margin-padding-lang {
     padding-right: 5px;
-    margin-right: 15px; } }
+    margin-right: 15px; }
+  .h1 {
+    font-size: 1.25rem;
+    margin-bottom: 0; } }
 
 .dropbtn {
   background-color: #e20d0d;
